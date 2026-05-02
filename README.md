@@ -26,7 +26,7 @@ This project's infrastructure is designed to:
 
 ## Key Configuration
 
-### DHCP Server
+### 1. DHCP Server
 The DHCP server is configured to automatically assign IP addresses to client devices.
 
 **Steps performed:**
@@ -38,7 +38,7 @@ The DHCP server is configured to automatically assign IP addresses to client dev
 - Client successfully recieved IP address
 - Client can ping the server
 
-### DNS Server
+### 2. DNS Server
 DNS is used to translate domain names into addresses.
 
 **Steps performed:**
@@ -49,7 +49,7 @@ DNS is used to translate domain names into addresses.
 **Testing:**
 - Client successfully resolves server using domain name
 
-### Active Directory Domain Server (ADDS)
+### 3. Active Directory Domain Server (ADDS)
 ADDS is used for centralized authentication and user management.
 
 **Steps performed:**
@@ -62,7 +62,7 @@ ADDS is used for centralized authentication and user management.
 **Testing:**
 - Users successfully log in form client PC
 
-### Group Policy Object
+### 4. Group Policy Object
 GPO is used to enforce security policies on client machines.
 
 **Policies applied:**
@@ -73,7 +73,7 @@ GPO is used to enforce security policies on client machines.
 **Result:**
 - Restrictions successfully applient on client systems
 
-### NFS Server
+### 5. NFS Server
 NFS is used for file sharing between systems.
 
 **Steps preformed:**
@@ -83,7 +83,7 @@ NFS is used for file sharing between systems.
 **Testing:**
 - Client successfully accessed shared files
 
-### Join Forest (Backup Server)
+### 6. Join Forest (Backup Server)
 A backup server is added to the domain for redundancy.
 
 **Steps performed:**
@@ -91,7 +91,7 @@ A backup server is added to the domain for redundancy.
 - Joined existing domain
 - Verify connection in Server Manager
 
-### DHCP Failover
+### 7. DHCP Failover
 Failover ensures DHCP service remains available if the main server fails.
 
 **Steps performed:**
@@ -102,7 +102,7 @@ Failover ensures DHCP service remains available if the main server fails.
 - Main server turned off
 - Backup server successfully handled DHCP requests
 
-### File Server Resource Manager (FSRM)
+### 8. File Server Resource Manager (FSRM)
 FSRM is used to manage storage and control file usage.
 
 **Steps performed:**
@@ -114,7 +114,7 @@ FSRM is used to manage storage and control file usage.
 - Storage usage controlled
 - File restrictions enforced
 
-### Distributed File System (DFS)
+### 9. Distributed File System (DFS)
 DFS provides file replication and redundancy.
 
 **Steps performed:**
