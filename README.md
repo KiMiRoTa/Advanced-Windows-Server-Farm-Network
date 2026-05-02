@@ -39,6 +39,8 @@ The DHCP server is configured to automatically assign IP addresses to client dev
 - Client successfully recieved IP address
 - Client can ping the server
 
+![DHCP Image](./Images/DHCP.png)
+
 ### 2. DNS Server
 DNS is used to translate domain names into addresses.
 
@@ -49,6 +51,8 @@ DNS is used to translate domain names into addresses.
 
 **Testing:**
 - Client successfully resolves server using domain name
+
+![DNS Image](./Images/DNS.png)
 
 ### 3. Active Directory Domain Server (ADDS)
 ADDS is used for centralized authentication and user management.
@@ -63,6 +67,8 @@ ADDS is used for centralized authentication and user management.
 **Testing:**
 - Users successfully log in form client PC
 
+![ADDS Image](./Images/ADDS.png)
+
 ### 4. Group Policy Object
 GPO is used to enforce security policies on client machines.
 
@@ -74,6 +80,9 @@ GPO is used to enforce security policies on client machines.
 **Result:**
 - Restrictions successfully applient on client systems
 
+![GPO](./Images/GPO.png)
+![GPO Result Image](./Images/GPOResult.png)
+
 ### 5. NFS Server
 NFS is used for file sharing between systems.
 
@@ -84,6 +93,8 @@ NFS is used for file sharing between systems.
 **Testing:**
 - Client successfully accessed shared files
 
+![NFS Image](./Images/NFS.png)
+
 ### 6. Join Forest (Backup Server)
 A backup server is added to the domain for redundancy.
 
@@ -91,6 +102,8 @@ A backup server is added to the domain for redundancy.
 - Assigned static IP
 - Joined existing domain
 - Verify connection in Server Manager
+
+![Join Forest Image](./Images/JoinForest.png)
 
 ### 7. DHCP Failover
 Failover ensures DHCP service remains available if the main server fails.
@@ -102,6 +115,8 @@ Failover ensures DHCP service remains available if the main server fails.
 **Testing:**
 - Main server turned off
 - Backup server successfully handled DHCP requests
+
+![DHCP Failover Image](./Images/DHCPFailover.png)
 
 ### 8. File Server Resource Manager (FSRM)
 FSRM is used to manage storage and control file usage.
@@ -115,6 +130,8 @@ FSRM is used to manage storage and control file usage.
 - Storage usage controlled
 - File restrictions enforced
 
+![FSRM Image](./Images/FSRMResult.png)
+
 ### 9. Distributed File System (DFS)
 DFS provides file replication and redundancy.
 
@@ -125,6 +142,8 @@ DFS provides file replication and redundancy.
 
 **Testing:**
 - File changes replicated between servers successfully
+
+![DFS Image](./Images/DFS.png)
 
 ---
 
