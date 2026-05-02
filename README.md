@@ -1,4 +1,4 @@
-# Advanced-Windows-Server-Farm-Network
+# E-Agriculture Windows Server Implementation
 
 ## Overview
 This repository is my university project about demonstrating the implementation of WIndows Server Services to support a smart farming (E-Agriculture) system.
