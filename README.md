@@ -25,6 +25,7 @@ This project's infrastructure is designed to:
 ---
 
 ## Key Configuration
+This part explain each Window Server role configuration briefly. 
 
 ### 1. DHCP Server
 The DHCP server is configured to automatically assign IP addresses to client devices.
